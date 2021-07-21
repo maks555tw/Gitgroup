@@ -17,7 +17,25 @@ using namespace std;
 
         virtual void Say() = 0;
         virtual void Nick() = 0;
-    };tgtrgtrg
+    };
+
+    class Dog : public Animal
+    {
+    public:
+        Dog(string name) : Animal(name)
+        {
+        }
+
+        void Say()
+        {
+            cout << name << " speak gav-gav" << endl;
+        }
+        void Nick()
+        {
+            cout << name << " name Dog#1" << endl;
+        }
+    };
+
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
