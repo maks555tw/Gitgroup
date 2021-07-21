@@ -10,13 +10,10 @@ using namespace std;
     protected:
         string name;
     public:
-        Animal(string name)
-            : name(name)
-        {
-        }
+        Animal(string name): name(name){    }
 
-        virtual void Say() = 0;
-        virtual void Nick() = 0;
+        virtual void Say() { };
+        virtual void Nick() {   };
     };
 
     class Dog : public Animal
@@ -35,8 +32,6 @@ using namespace std;
             cout << name << " name Dog#1" << endl;
         }
     };
-
-
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 
 // Tips for Getting Started: 
