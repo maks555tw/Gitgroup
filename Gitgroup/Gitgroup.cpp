@@ -17,8 +17,7 @@ using namespace std;
 
         virtual void Say() = 0;
         virtual void Nick() = 0;
-    };
-
+    };tgtrgtrg
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
