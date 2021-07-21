@@ -19,15 +19,7 @@ using namespace std;
         virtual void Nick() = 0;
     };
 
-    void Say() override
-    {
-        cout << name << " speak kray-kray" << endl;
-    }
-    void Nick() override
-    {
-        cout << name << " name Bird#1" << endl;
-    }
-};
+
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
