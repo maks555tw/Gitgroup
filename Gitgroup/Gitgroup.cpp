@@ -35,8 +35,5 @@ using namespace std;
         Dog a("servi");
         a.Nick();
 
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-
         return 0;
     }
