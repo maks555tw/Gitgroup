@@ -2,11 +2,22 @@
 //
 
 #include <iostream>
+#include <string> 
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+    class Animal
+    {
+    protected:
+        string name;
+    public:
+        Animal(string name)
+            : name(name)
+        {
+        }
+
+        virtual void Say() = 0;
+        virtual void Nick() = 0;
+    };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
